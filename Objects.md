@@ -12,7 +12,7 @@ let x = {
 }
 ```
 
-## The Dot Operator
+## The Dot `.` Operator
 In the realm of objects, the dot operator emerges as a beacon of access, facilitating the exploration of properties within objects. With this operator, you can traverse the intricate landscape of object data.
 
 ```js
@@ -28,7 +28,20 @@ print(x.a.b + " " + x.b + x.c);
 ```
 
 Through the magic of the dot operator, you can effortlessly string together object properties, crafting a symphony of data that resonates with meaning.
-
 In the presented scenario, the outcome of the code will be the harmonious revelation of "Hello World!" – a testament to the power of objects and the dot operator in orchestrating a data ballet.
 
-In Coda's realm, objects transcend mere containers; they encapsulate stories, insights, and possibilities, ushering you into a realm of seamless data navigation.
+## The Box `[]` Operator
+Similar to the Dot operator, this enables accessing object data.
+```js
+
+let object x = {
+    c: 20,
+    d: {
+        inner: 50
+    },
+    e: 40
+}
+
+println(x["c"]) // 20
+println(x["d"]["inner"]) //50
+```
