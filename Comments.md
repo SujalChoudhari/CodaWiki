@@ -44,7 +44,7 @@ In this example, the comment explains the purpose of the calculation and provide
 
 4. **Todo Notes:** Developers often use comments to mark tasks that need to be completed in the future. For example, `// TODO: Implement error handling here`.
 
-**Best Practices:**
+## Best Practices:
 
 1. **Be Concise:** Write clear and concise comments that provide valuable information without being overly verbose.
 
@@ -54,6 +54,6 @@ In this example, the comment explains the purpose of the calculation and provide
 
 4. **Avoid Redundancy:** Comment only when necessary. Code should be self-explanatory whenever possible.
 
-**Conclusion:**
+## Conclusion:
 
-Comments in JavaScript play a crucial role in improving code quality, collaboration among developers, and overall maintainability. By using appropriate comments, you can enhance the understanding of your code and make it easier for others to contribute to and maintain the project. Remember to use comments judiciously and follow best practices to ensure your code remains clear and understandable.
+Comments in Coda play a crucial role in improving code quality, collaboration among developers, and overall maintainability. By using appropriate comments, you can enhance the understanding of your code and make it easier for others to contribute to and maintain the project. Remember to use comments judiciously and follow best practices to ensure your code remains clear and understandable.
