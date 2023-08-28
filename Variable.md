@@ -37,7 +37,7 @@ x = "Hello, World!"
 
 ## Specifying Types
 
-In the realm of Coda, clarity is not a mere virtue; it's a vivid palette you can wield to express your intent. While we encourage the use of types for clear communication, Coda's flexibility allows you to explore without the traditional confines of strict type enforcement. Behold, a glimpse into this wondrous realm:
+In the realm of Coda, clarity is not just a virtue; it's a vivid palette you can wield to express your intent. While we encourage the use of types for clear communication, Coda's flexibility allows you to explore without the traditional confines of strict type enforcement. Behold, a glimpse into this wondrous realm:
 
 ```js
 let bool k = true
@@ -55,6 +55,25 @@ let int anInteger = false
 > It's worth noting that in Coda, types play a behind-the-scenes role for internal functionality and developer guidance. You have the artistic freedom to push boundaries and experiment with types as you see fit.
 
 In Coda, types are like dance partners, gracefully following your lead while embracing the rhythm of endless possibilities.
+
+## The `:=` Operator
+Coda has introduced a new operator, `:=`, to the variable assignment arsenal. While using the normal `=` operator creates a variable reference without copying, the `:=` operator enforces the creation of a copy. Let's delve into the distinction:
+
+```js
+let x = 5;
+y = x;
+x++;
+print(y); // Output: 6
+```
+
+```js
+let x = 5;
+y := x;
+x++;
+print(y); // Output: 5
+```
+
+This new operator allows you to control whether you want a copy to be created during assignment, offering more control over variable behavior.
 
 ## Conclusion
 
