@@ -1,4 +1,5 @@
 Welcome to the Coda Programming Language Wiki!
+![Wiki image](https://repository-images.githubusercontent.com/631995861/fa5babb0-27af-4a4c-9c80-1fb93da6c7d3)
 
 ## Introduction
 
