@@ -7,7 +7,7 @@ To summon forth a function, the `def` keyword serves as your incantation. Functi
 
 ```py
 def add(x, y) {
-    x + y
+    return x + y;
 }
 ```
 
@@ -15,7 +15,7 @@ def add(x, y) {
 Unlocking the potential of functions is achieved through the invocation ritual, signaled by the `()` operator. By uttering the function's name within these parentheses, you beckon its execution.
 
 ```py
-add(5, 5)
+add(5, 5);
 ```
 
 ## Function Assignment
@@ -23,12 +23,12 @@ In the realm of functions, the boundaries between variables and functions blur. 
 
 ```py
 def add(x, y) {
-    x + y
+    return x + y;
 }
 
-x = add
-k = x(5, 5)
-print(k)
+x = add;
+k = x(5, 5);
+print(k);
 ```
 
 ## Functions in Objects
@@ -42,7 +42,7 @@ let hello = {
     earth: def(){
         println("Hello, Earth!");
     }
-}
+};
 ```
 
 ## Interaction and Expression
@@ -55,7 +55,13 @@ hello.earth();
 hello.something(inp);
 ```
 
-## Default Return
-In the art of function crafting, a distinctive feature emerges: the last executed statement within a function is automatically returned by default. In Coda's world, there's no need for a `return` keyword. This implicit return elegantly simplifies your code, allowing you to focus on the logic that matters most.
+## Explicit Return
+In the art of function crafting, a distinctive feature emerges: the last executed statement within a function is no longer automatically returned by default. Instead, you can use the `return` keyword to explicitly specify the value to be returned.
+
+```py
+def multiply(x, y) {
+    return x * y;
+}
+```
 
 In the world of Coda, functions stand not as mere tools, but as the artisans of your programming tapestry. Their creation, invocation, and integration within objects mark a journey into the realm of structured logic, weaving a narrative of precision and expression.
