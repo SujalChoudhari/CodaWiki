@@ -1,4 +1,6 @@
-Looping structures in programming languages like Coda allow developers to execute a block of code repeatedly, either for a specific number of iterations or until a certain condition is met. These structures enhance the efficiency and flexibility of programming tasks that require repetitive actions. In Coda, loop structures include `for`, `while`, and `do-while` loops.
+# Looping Structures
+
+Looping structures in programming languages, such as Coda, enable developers to execute a block of code repeatedly, either for a specific number of iterations or until a certain condition is met. These structures enhance the efficiency and flexibility of programming tasks that require repetitive actions. In Coda, loop structures include `for`, `while`, and `do-while` loops.
 
 ## `for` Loop
 
@@ -64,6 +66,35 @@ do {
 
 In this example, the code block will execute until the value of `i` becomes non-positive.
 
+## `continue`, `break`, and `return`
+
+Coda now supports the `continue`, `break`, and `return` statements within loop structures, enhancing control over loop execution and program flow:
+
+- `continue`: This statement skips the rest of the current iteration and proceeds to the next iteration of the loop.
+- `break`: This statement immediately terminates the loop, exiting its execution.
+- `return`: While not exclusive to loops, the `return` statement can also be used to exit a function and, consequently, any loop containing that function.
+
+```js
+for (let i = 0; i < 10; i++) {
+    if (i == 5) {
+        continue; // Skip the rest of this iteration
+    }
+    if (i == 8) {
+        break; // Terminate the loop
+    }
+    print(i);
+}
+
+def findValue(arr, value) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === value) {
+            return i; // Exit the function and loop
+        }
+    }
+    return -1; // Value not found
+}
+```
+
 ## Conclusion
 
-Looping structures in the Coda programming language provide the means to repeat code execution efficiently and flexibly. Developers can utilize `for`, `while`, and `do-while` loops to achieve different looping behaviors based on their programming needs. These constructs empower programmers to handle various scenarios that involve repetition, enabling more dynamic and robust software development.
+Looping structures in the Coda programming language provide the means to repeat code execution efficiently and flexibly. Developers can utilize `for`, `while`, and `do-while` loops, along with the new control statements `continue`, `break`, and `return`, to achieve different looping behaviors based on their programming needs. These constructs empower programmers to handle various scenarios that involve repetition, enabling more dynamic and robust software development.
