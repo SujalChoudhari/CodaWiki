@@ -1,5 +1,3 @@
-# Packages in Coda
-
 Packages in Coda provide a convenient way to organize and reuse code. They allow you to encapsulate related functionality and share it across your projects. In Coda, packages can take two forms: `.coda` packages and `.dll` (Dynamic Link Library) packages. This wiki page will explain how to use and implement packages in Coda.
 
 ## .coda Packages
