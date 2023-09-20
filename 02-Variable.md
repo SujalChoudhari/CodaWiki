@@ -27,14 +27,6 @@ let x = 5
 x = "Hello, World!"
 ```
 
-## Assignment Sans `let`
-While it's entirely valid to assign values to variables without explicitly using `let`, we encourage the use of `let` for enhanced readability. Clarity in your code contributes to maintainability and ease of collaboration.
-
-```js
-x = 5
-x = "Hello, World!"
-```
-
 ## Specifying Types
 
 In the realm of Coda, clarity is not just a virtue; it's a vivid palette you can wield to express your intent. While we encourage the use of types for clear communication, Coda's flexibility allows you to explore without the traditional confines of strict type enforcement. Behold, a glimpse into this wondrous realm:
