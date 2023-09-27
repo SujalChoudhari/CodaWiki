@@ -43,7 +43,7 @@ If you encounter any problems while using the Coda Wiki or have suggestions for 
 
 If you would like to contribute changes to the Coda Wiki, please follow these steps:
 
-1. **Fork the Repository:** Fork the [Coda Wiki repository](https://github.com/SujalChoudhari/CodaWki) to your GitHub account.
+1. **Fork the Repository:** Fork the [Coda Wiki repository](https://github.com/SujalChoudhari/CodaWiki) to your GitHub account.
 
 2. **Create a Branch:** Create a new branch in your forked repository to work on your changes.
 
