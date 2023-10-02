@@ -24,6 +24,29 @@ for (let a = 0; a < 6; a++) {
 }
 ```
 
+## `for-in` Loop (Enhanced For Loop)
+The Enhanced For-In Loop, often referred to as the For-In Loop, is a valuable addition to the Coda programming language's looping capabilities. It allows for easy iteration over elements in a list, object, or string, making repetitive tasks more efficient and code more readable.
+
+### Syntax
+The syntax of the Enhanced For-In Loop is as follows:
+
+```js
+for (let element in iterable) {
+    // Code to be executed for each element
+}
+```
+element: Represents the current element in the iteration.
+iterable: Refers to the list, object, or string over which iteration occurs.
+Example:
+
+```js
+let fruits = ['apple', 'banana', 'cherry'];
+
+for (let fruit in fruits) {
+    print(fruit);
+}
+```
+
 ## `while` Loop
 
 The `while` loop in Coda repeatedly executes a block of code as long as a specified condition is `true`. The syntax is:
