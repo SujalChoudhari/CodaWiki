@@ -4,7 +4,7 @@ Operators in the Coda programming language are fundamental symbols used to perfo
 
 ## Binary Operators
 
-Binary operators are used to perform operations between two operands.
+Binary operators are used to perform operations between two operands. Binary operators take two operands, one on the left and one on the right, and combine them to produce a result. They are called "binary" because they work with two values.
 
 - **Addition (`+`)**: Adds two operands.
 - **Subtraction (`-`)**: Subtracts the right operand from the left operand.
@@ -16,7 +16,7 @@ Binary operators are used to perform operations between two operands.
 
 ## Unary Operators
 
-Unary operators perform operations on a single operand.
+Unary operators perform operations on a single operand.In simple terms, unary operators work with just one piece of data and perform a specific action on it.
 
 - **Unary Plus (`+`)**: Represents the identity of an operand.
 - **Unary Minus (`-`)**: Negates the value of an operand.
@@ -26,7 +26,7 @@ Unary operators perform operations on a single operand.
 
 ## Relational Operators
 
-Relational operators are used to compare two operands.
+Relational operators are used to compare two operands. In simple terms, relational operators are symbols used to compare two values and determine the relationship between them. 
 
 - **Greater Than (`>`)**: Checks if the left operand is greater than the right operand.
 - **Less Than (`<`)**: Checks if the left operand is less than the right operand.
@@ -37,14 +37,17 @@ Relational operators are used to compare two operands.
 
 ## Logical Operators
 
-Logical operators are used to perform logical operations.
+Logical operators are used to perform logical operations. These operators allow you to combine and manipulate Boolean values to make decisions, control the flow of your program, and create more complex conditions.
 
 - **Logical AND (`&&`)**: Returns `true` if both operands are `true`.
 - **Logical OR (`||`)**: Returns `true` if at least one operand is `true`.
+  
+Boolean expressions can be put between braces ( '(' and ')' ) in order to guide the evaluation order.
+The AND and OR expressions are lazy evaluated. This means that the second argument to AND will not be evaluated if the first argument already evaluated to false, and for OR similarly if the first argument already evaluated to true.
 
 ## Assignment Operators
 
-Assignment operators are used to assign values to variables.
+Assignment operators are used to assign values to variables.They take a value on the right and store it in a variable on the left.
 
 - **Assignment (`=`)**: Assigns the value of the right operand to the left operand.
 - **Addition Assignment (`+=`)**: Adds the right operand to the left operand and assigns the result to the left operand.
