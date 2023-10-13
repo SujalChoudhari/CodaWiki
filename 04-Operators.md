@@ -38,7 +38,7 @@ println(modulusResult);
 println(postIncrement);
 println(preDecrement);
 
-
+```
 ## Unary Operators
 Unary, uni means one. Unary operations perform operations on single operand.
 
@@ -67,7 +67,7 @@ println(unaryMinus);
 println(logicalNot);
 println(sizeOfA);
 println(typeOfA);
-
+```
 ## Relational Operators
 
 Relational operators are used to compare two operands.
@@ -99,7 +99,7 @@ println(lessThan);
 println(greaterThanOrEqual);
 println(equalTo);
 println(notEqualTo);
-
+```
 ## Logical Operators
 
 Logical operators are used to perform logical operations.
@@ -121,12 +121,13 @@ OUTPUT
 
 println(logicalAnd);
 println(logicalOr);
-
+```
 ## Assignment Operators
 
 Assignment operators are used to assign values to variables.
 
 - **Assignment (`=`)**: Assigns the value of the right operand to the left operand.
+- **Copy Assignment (`:=`)**: Assigns the copied value of the right to left.
 - **Addition Assignment (`+=`)**: Adds the right operand to the left operand and assigns the result to the left operand.
 - **Subtraction Assignment (`-=`)**: Subtracts the right operand from the left operand and assigns the result to the left operand.
 - **Multiplication Assignment (`*=`)**: Multiplies the left operand by the right operand and assigns the result to the left operand.
