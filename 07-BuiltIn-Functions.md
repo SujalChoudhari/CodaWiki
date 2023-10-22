@@ -17,14 +17,19 @@ println("Hello, World!", "Chaining")
 ```
 
 ## `sleep(sec)`
-In the realm of time manipulation, `sleep(...)` holds the key to pauses. This function takes a single parameter – the duration in seconds and beckons your program to await the passage of time.
+In the realm of time manipulation, `sleep(...)` holds the key to pause. This function takes a single parameter – the duration in seconds and beckons your program to await the passage of time.
 
 ```js
 sleep(20)
 ```
 
 ## `parseInt(string)`, `parseFloat(string)`, `parseDouble(string)`, `parseByte(string)`, `parseBool(string)`
-The family of parsing functions are your navigators through string-to-number and string-to-boolean conversions. Each function accepts a single parameter – the string to be converted – and returns its numerical or boolean equivalent.
+The family of parsing functions are your navigators through string-to-number and string-to-boolean conversions. Each function accepts a single parameter – the 'string' to be converted – and return its numerical or boolean equivalent.
+As in parseInt(string)- convert string to int
+parseFloat() - convert string to float
+parseDouble()- convert string to double
+parseByte()- convert string to bytes
+parseBool()- convert string to bool
 
 ```js
 let num = parseInt("20")
@@ -32,9 +37,11 @@ let num = parseInt("20")
 
 ## `quit(int statusCode)`, `exit(int statusCode)`
 In the realm of controlled departure, `quit()` and `exit(...)` offer ways to gracefully bid farewell to your program. Both serve the same purpose.
+In simple terms, it end's the program.
 
 ## `input(prompt)`
-The gateway to user interaction, `input(...)` prompts users for input. A single parameter – the prompt you wish to display – guides the user in providing their response.
+The gateway to user interaction, `input(...)` prompt users for input. A single parameter – the prompt you wish to display – guides the user in providing their response.
+In simple terms, it takes the input from users whatever it is, number, string, bool or anything.
 
 ```js
 let numStr = input("Enter a number")
